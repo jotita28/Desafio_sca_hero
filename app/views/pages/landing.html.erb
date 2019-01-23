@@ -1,0 +1,23 @@
+<h1>Estudiantes</h1>
+
+<table>
+<thead>
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Email</th>
+
+  </tr>
+</thead>
+
+<tbody>
+  <% @students.each do |student| %>
+  <tr>
+  <td><%= student.name %> </td>
+  <td><%= student.age %> </td>
+  <td><%= student.email %> </td>
+  </tr>
+  <% end %>
+  </table>
+
+</tbody>
