@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Link a Heroku: https://rocky-sierra-35950.herokuapp.com/
