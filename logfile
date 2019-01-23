@@ -1,0 +1,5 @@
+2019-01-23 14:57:29.654 -03 [10470] LOG:  listening on IPv6 address "::1", port 5432
+2019-01-23 14:57:29.654 -03 [10470] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-23 14:57:29.655 -03 [10470] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-01-23 14:57:29.728 -03 [10472] LOG:  database system was shut down at 2019-01-22 17:00:31 -03
+2019-01-23 14:57:29.739 -03 [10470] LOG:  database system is ready to accept connections
