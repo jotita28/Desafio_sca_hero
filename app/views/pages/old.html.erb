@@ -1,11 +1,10 @@
-<h1>Estudiantes</h1>
+<h1>Estudiantes Mayores</h1>
 
 <table class="table table-hover">
 <thead>
   <tr>
     <th>Nombre</th>
     <th>Edad</th>
-    <th>Email</th>
 
   </tr>
 </thead>
@@ -15,13 +14,12 @@
   <tr>
   <td><%= student.name %> </td>
   <td><%= student.age %> </td>
-  <td><%= student.email %> </td>
   </tr>
   <% end %>
   </table>
 
 </tbody>
-
-<%= link_to 'A Estudiantes Mayores', pages_old_path %> <%= " " %>
 <br>
-<%= link_to 'A Estudiantes Menores', pages_young_path %>
+
+<% student = @students%>
+<%= "Total alumnos mayores de edad: #{student.size}" %>
